@@ -14,7 +14,6 @@ Two server side API’s were used to provide cat and dog breed information. The 
 
 - [Usage](#usage)
 - [Application](#application)
-- [Credits](#credits)
 - [License](#license)
 
 ## Usage
