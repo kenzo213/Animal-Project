@@ -47,7 +47,7 @@ Two server side API’s were used to provide cat and dog breed information. The 
 
 #### Deployed Website URL:
 
-https://agrove21.github.io/group3-project1/
+https://kenzo213.github.io/Animal-Project/
 
 #### Screenshot of Deployed Application
 
