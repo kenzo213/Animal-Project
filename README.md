@@ -55,21 +55,6 @@ https://kenzo213.github.io/Animal-Project/
 ![alt text](./assets/images/cats.png)
 ![alt text](./assets/images/dogs.png)
 
-## Credits
-
-#### Team Members:
-
-Ann Hargrove
-https://github.com/agrove21
-
-Gypze Nelson
-https://github.com/gypze
-
-Lucky Usionya
-https://github.com/keno213
-
-Kara Poole
-https://github.com/karapoole
 
 #### Other Credits
 
