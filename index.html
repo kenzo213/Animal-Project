@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <title>Furry Friend Finder</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="has-text-white has-text-weight-bold">Furry Friend Finder</h1>
+    </header>
+    <main>
+      <p class="is-size-4 has-text-centered has-text-weight-bold">
+        Welcome to Furry Friend Finder,<br> where your perfect pet match is just a click away!
+      </p>
+      <h2 class="has-text-weight-bold has-text-centered">Select a Pet!</h2>
+      <section class="pet-btn">
+        <a href="dogs.html">
+          <i class="fa-solid fa-dog"></i>
+          <span class="is-size-1">Dog</span>
+        </a>
+        <a href="cats.html">
+          <i class="fa-solid fa-cat"></i>
+          <span class="is-size-1">Cat</span>
+        </a>
+      </section>
+      <!-- favorite -->
+      <h2 class="has-text-weight-bold has-text-centered">
+        My Favorite Pet Breeds:
+      </h2>
+      <section class="breeds-container"></section>
+      <div class="modal" id="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <button class="favorite">
+              <span class="icon red">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </button>
+            <p class="modal-card-title"></p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body"></section>
+        </div>
+      </div>
+      <!-- End Favorite -->
+    </main>
+    <footer>
+      <!-- <p>&copy; 2024 Group 3 Project 1</p> -->
+    </footer>
+    <script src="assets/js/commonfunctions.js"></script>
+    <script src="assets\js\script.js"></script>
+  </body>
+</html>

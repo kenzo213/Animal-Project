@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat breeds</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="assets\css\style.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="has-text-white has-text-weight-bold">Cat Breeds</h1>
+    <span>
+      <a href="index.html">
+        <span class="icon has-text-white">
+          <i class="fa-solid fa-house"></i>
+        </span>
+        <span class= "has-text-white">Home</span>
+      </a>
+      <a href="index.html#breeds-container">
+        <span class="icon has-text-white">
+          <i class="fa-solid fa-heart"></i>
+        </span>
+        <span class="has-text-white">Favorite Breeds</span>
+        </a
+      >
+    </span>
+
+  </header>
+  <section class="breeds-container"></section>
+  <!-- start modal -->
+  <div class="modal" id="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <button class="favorite">
+          <span class="icon">
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </button>
+        <p class="modal-card-title"></p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <!-- Content ... -->
+      </section>
+      <!-- <footer class="modal-card-foot">
+          <div class="buttons">
+            <button class="button is-success">Save changes</button>
+            <button class="button">Cancel</button>
+          </div>
+        </footer> -->
+    </div>
+  </div>
+  <!-- end modal -->
+   <script src="assets/js/commonfunctions.js"></script>
+  <script src="assets/js/cats.js"></script>
+</body>
+
+</html>
