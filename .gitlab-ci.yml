@@ -1,0 +1,21 @@
+image: hashicorp/terraform:latest
+
+stages:
+  - plan
+  - apply
+
+before_script:
+  - terraform --version
+  - terraform init
+
+plan:
+  stage: plan
+  script:
+    - terraform validate
+    - terraform plan -out=tfplan
+
+apply:
+  stage: apply
+  script:
+    - terraform apply -auto-approve tfplan
+  when: manual
