@@ -8,7 +8,7 @@ The application accepts and responds to user input. Users are first prompted to 
 
 Each breed is represented by a button with a photo of the breed next to it. When users click on a breed button, a modal with a larger picture of the breed and information about the breed’s life span, weight, and temperament are displayed. Users can close the modal by clicking the “x” on the top right side of the modal. Users are able to click a heart icon in the top left-hand corner of the model to favorite a dog or cat breed. Favorited breeds appear on the homepage.
 
-Two server side API’s were used to provide cat and dog breed information. The application uses client-side storage to store persistent data about the user’s favorite pet breeds. The CSS framework library Bulma was used to style and polish the UI of the application. Flexbox was used to make the application responsive and fit the viewports of smaller screens such as mobile devices and tablet.
+Two server side API’s were used to provide cat and dog breed information. The application uses client-side storage to store persistent data about the user’s favorite pet breeds. The CSS framework library Bulma was used to style and polish the UI of the application. Flexbox was used to make the application responsive and fit the viewports of smaller screens such as mobile devices.
 
 ## Table of Contents
 
